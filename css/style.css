@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .autor__img {
     width: 40px;
     height: 40px;
@@ -11,6 +12,8 @@
 
 .f-weight {
     font-weight: 700;
+    margin-left: 20px;
+
 }
 
 .autor {
@@ -18,8 +21,15 @@
     align-items: center;
 }
 
+.row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 40px;
+}
+
+
 .p__fecha-post {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 body {
@@ -28,12 +38,12 @@ body {
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 h4 {
@@ -68,6 +78,7 @@ article {
 .right__section-img {
     width: 189px;
     height: 145;
+    object-fit: cover;
 }
 
 .right__section-h4 {
@@ -85,9 +96,11 @@ article {
     object-fit: cover;
 }
 
+
 article h4 {
     width: 295px;
 }
+
 
 .categoria {
     width: 298px;
@@ -112,24 +125,35 @@ article h4 {
 
 #html {
     background-color: #E93E30;
+    margin-left: 20px;
 }
 
 #js {
     background-color: #F7E018;
+    margin-left: 20px;
+
 }
 
 #css {
     background-color: #299ED5;
+    margin-left: 20px;
+
 }
 
 #react {
     background-color: #292C33;
+    margin-left: 20px;
+
 }
 
 #vue {
     background-color: #67C770;
+    margin-left: 20px;
+
 }
 
 #btrap {
     background-color: #563D7C;
+    margin-left: 20px;
+
 }
